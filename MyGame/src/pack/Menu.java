@@ -93,7 +93,7 @@ public class Menu extends MouseAdapter {
     public void open_Image()
     {
           try {
-            play_image = ImageIO.read(new File("MyGame\\src\\pack\\Images\\play-removebg-preview.png"));
+            play_image = ImageIO.read(new File("MyGame\\src\\Images\\play-removebg-preview.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

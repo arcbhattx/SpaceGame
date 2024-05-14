@@ -39,7 +39,7 @@ public class Laser extends Objects{
     public void open_Image()
     {
           try {
-            laser_image = ImageIO.read(new File("MyGame\\src\\pack\\Images\\las-removebg-preview.png"));
+            laser_image = ImageIO.read(new File("MyGame\\src\\Images\\las-removebg-preview.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

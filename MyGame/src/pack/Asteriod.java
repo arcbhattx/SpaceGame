@@ -31,7 +31,7 @@ public class Asteriod extends Objects{
      public void open_Image()
     {
           try {
-            asteroid_image = ImageIO.read(new File("MyGame\\src\\pack\\Images\\asteroid-removebg-preview.png"));
+            asteroid_image = ImageIO.read(new File("MyGame\\src\\Images\\asteroid-removebg-preview.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

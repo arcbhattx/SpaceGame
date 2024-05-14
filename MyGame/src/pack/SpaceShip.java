@@ -78,7 +78,7 @@ public class SpaceShip extends Objects {
     public void open_Image()
     {
           try {
-            ship_image = ImageIO.read(new File("MyGame\\src\\pack\\Images\\ship-removebg-preview.png"));
+            ship_image = ImageIO.read(new File("MyGame\\src\\Images\\ship-removebg-preview.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

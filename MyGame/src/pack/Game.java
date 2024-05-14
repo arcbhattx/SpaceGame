@@ -203,7 +203,7 @@ public class Game extends Canvas implements Runnable{
     public void open_Image()
     {
           try {
-            back_image = ImageIO.read(new File("MyGame\\src\\pack\\Images\\background.png"));
+            back_image = ImageIO.read(new File("MyGame\\src\\Images\\background.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

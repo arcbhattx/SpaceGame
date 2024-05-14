@@ -34,7 +34,7 @@ public class FuelPack extends Objects{
      public void open_Image()
     {
           try {
-            fuel_image = ImageIO.read(new File("MyGame\\src\\pack\\Images\\fuel-removebg-preview.png"));
+            fuel_image = ImageIO.read(new File("MyGame\\src\\Images\\fuel-removebg-preview.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
